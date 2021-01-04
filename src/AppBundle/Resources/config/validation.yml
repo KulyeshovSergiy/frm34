@@ -1,0 +1,5 @@
+AppBundle\Entity\ForumPost:
+  properties:
+    msg:
+      - NotBlank: ~
+      - AppBundle\Validator\Constraints\ContainsCenzor: ~

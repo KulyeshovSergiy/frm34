@@ -1,0 +1,30 @@
+{% extends '@App/layout.html.twig' %}
+
+{% block body %}
+Zzzz...
+    <br>
+    {{ res }}
+    <br>
+   {% if app.user!=null %}
+    {{ app.user.username }}
+       <br>
+{#       {% for role in app.user.roles %}
+    {{ role }}<br>
+       {% endfor %}#}
+       {% if 'ROLE_SUPER_ADMIN' in app.user.roles %}
+           ROLE_SUPER_ADMIN
+       {% endif %}
+       <br>
+       {% if 'ROLE_ADMIN' in app.user.roles %}
+           ROLE_ADMIN
+       {% endif %}
+       <br>
+       {% if 'ROLE_USER' in app.user.roles %}
+           ROLE_USER
+       {% endif %}
+
+   {% endif %}
+{% endblock %}
+
+{% block stylesheets %}
+{% endblock %}

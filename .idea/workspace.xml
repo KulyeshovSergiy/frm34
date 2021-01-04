@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="acd7e428-9033-439f-9264-a8dee39fdabb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twbs/bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/kriswallsmith/assetic" />
+      <path value="$PROJECT_DIR$/vendor/symfony/assetic-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1lKLmwyLase8IPwSmE1xhIe30zH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/AppBundle/Resources/views/cwordlist" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Configurable.PHP.Twig" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Bitnami\frm34\src\AppBundle\Resources\views\cwordlist" />
+      <recent name="C:\Bitnami\frm34\src\AppBundle\Resources\views\postslist" />
+      <recent name="C:\Bitnami\frm34\src\AppBundle\Resources\views\topics" />
+      <recent name="C:\Bitnami\frm34\src\AppBundle\Resources\public\css" />
+      <recent name="C:\Bitnami\frm34\src\AppBundle\Resources\views\forums" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Bitnami\frm34\web\bundles\app\css" />
+      <recent name="C:\Bitnami\frm34\src\AppBundle\Resources\public\css" />
+      <recent name="C:\Bitnami\frm34\src\AppBundle" />
+      <recent name="C:\Bitnami\frm34\src\AppBundle\Resources\public\js" />
+      <recent name="C:\Bitnami\frm34\templates\def" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acd7e428-9033-439f-9264-a8dee39fdabb" name="Default Changelist" comment="" />
+      <created>1607341000499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607341000499</updated>
+      <workItem from="1607341002387" duration="291000" />
+      <workItem from="1607341310998" duration="328000" />
+      <workItem from="1607342162675" duration="623000" />
+      <workItem from="1607440115906" duration="3149000" />
+      <workItem from="1607504040993" duration="173000" />
+      <workItem from="1607504397516" duration="57000" />
+      <workItem from="1607504816388" duration="4285000" />
+      <workItem from="1607527137745" duration="2393000" />
+      <workItem from="1607771094632" duration="4087000" />
+      <workItem from="1607778585549" duration="4424000" />
+      <workItem from="1607953016760" duration="5666000" />
+      <workItem from="1607982242347" duration="4309000" />
+      <workItem from="1608154493545" duration="2168000" />
+      <workItem from="1608214670335" duration="3248000" />
+      <workItem from="1608244697713" duration="1759000" />
+      <workItem from="1608284892393" duration="19799000" />
+      <workItem from="1608550046297" duration="7522000" />
+      <workItem from="1608729041229" duration="4493000" />
+      <workItem from="1609148331733" duration="16076000" />
+      <workItem from="1609751560297" duration="4644000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="770" y="399" key="#Composer" timestamp="1607341204267">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="770" y="399" key="#Composer/1920.316.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607341204267" />
+    <state x="232" y="150" key="#Intentions" timestamp="1609159067262">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="232" y="150" key="#Intentions/1280.258.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1609159067262" />
+    <state x="552" y="160" key="#Plugins" timestamp="1607341536000">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="160" key="#Plugins/1920.316.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607341536000" />
+    <state x="629" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608305138355">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.316.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608305138355" />
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608555445980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.316.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608555445980" />
+    <state x="470" y="158" key="NewPhpClassDialog" timestamp="1609753933172">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="470" y="158" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1609753933172" />
+    <state x="440" y="214" key="NewPhpClassDialog/1280.258.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1609152157040" />
+    <state x="529" y="419" key="NewPhpFileDialog" timestamp="1609163288461">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="529" y="419" key="NewPhpFileDialog/0.0.1280.984/1280.0.1366.728@0.0.1280.984" timestamp="1608731253086" />
+    <state x="565" y="310" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1608155908860" />
+    <state x="529" y="419" key="NewPhpFileDialog/1280.258.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1609163288461" />
+    <state x="794" y="443" key="NewPhpFileDialog/1920.316.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608299271564" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1607442214212">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/1920.316.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607442214212" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1608215757076">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/1920.316.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608215757076" />
+  </component>
+</project>

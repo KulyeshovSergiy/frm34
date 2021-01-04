@@ -1,0 +1,22 @@
+{% extends '@App/layout.html.twig' %}
+
+{% block body %}
+
+{% if itemslist %}
+    {% for item in itemslist %}
+        {% if item.title and item.id %}
+            <div class="row mb-3">
+                <div class="col-md-8 themed-grid-col">
+                    <a class="nav-link" href="{{ path('forum',{forumid: item.id} )}}">{{ item.title  }}</a>
+                </div>
+                {#  <div class="col-md-4 themed-grid-col">{{ item.id }}</div>#}
+            </div>
+
+        {% endif %}
+    {% endfor %}
+{% endif %}
+{% endblock %}
+
+{% block stylesheets %}
+    <link href="{{ asset('bundles/app/css/grid.css') }}" rel="stylesheet">
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends '@App/layout.html.twig' %}
+
+{% block body %}
+    {% if 'ROLE_ADMIN' in app.user.roles %}
+        {#{% if itemslist %}
+    {% for item in itemslist %}
+        {% if item.cword and item.id %}
+            <div class="row mb-3">
+                <div class="col-md-8 themed-grid-col">
+                    {{ item.cword }}
+                </div>
+                #}{#  <div class="col-md-4 themed-grid-col">{{ item.id }}</div>#}{#
+            </div>
+        {% endif %}
+    {% endfor %}
+{% endif %}#}
+{% if form %}
+    {{ form_start(form) }}
+
+    <ul class="words">
+        {% for word in form.words %}
+            <li>{{ form_row(word.cword) }}</li>
+        {% endfor %}
+    </ul>
+    {{ form_end(form) }}
+{% endif %}
+    {% endif %}
+{% endblock %}
+
+{% block stylesheets %}
+    <link href="{{ asset('bundles/app/css/grid.css') }}" rel="stylesheet">
+{% endblock %}
