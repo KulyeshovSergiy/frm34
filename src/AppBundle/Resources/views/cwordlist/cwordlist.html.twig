@@ -17,11 +17,18 @@
 {% if form %}
     {{ form_start(form) }}
 
-    <ul class="words">
+    <ul class="words" data-prototype="{{ form_widget(form.words.vars.prototype)|e }}">
         {% for word in form.words %}
             <li>{{ form_row(word.cword) }}</li>
         {% endfor %}
     </ul>
+    <div class="form-group">
+        <div class="col-md-8 col-md-offset-4" style="margin-top:5px;">
+            <button type="submit" class="btn btn-primary">
+                <i class="fa fa-btn fa-floppy-o"></i> Save
+            </button>
+        </div>
+    </div>
     {{ form_end(form) }}
 {% endif %}
     {% endif %}

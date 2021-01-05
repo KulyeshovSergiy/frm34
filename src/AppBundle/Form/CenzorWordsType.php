@@ -3,6 +3,7 @@
 
 namespace AppBundle\Form;
 
+use AppBundle\Entity\CenzorWord;
 use Symfony\Component\Form\AbstractType;
 use AppBundle\Entity\CenzorWords;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -16,9 +17,15 @@ class CenzorWordsType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
+        $ncw= new CenzorWord();
         $builder->add('words', CollectionType::class, [
             'entry_type' => CenzorWordType::class,
             'entry_options' => ['label' => false],
+            'allow_add' => true,
+            'prototype' => true,
+            'prototype_data' => $ncw,
+            'allow_delete' => true,
+            'delete_empty' => true,
         ]);
     }
 
