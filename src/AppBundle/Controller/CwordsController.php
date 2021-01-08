@@ -31,8 +31,34 @@ class CwordsController extends Controller
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-            dump($zlist);
-            die;
+            //dump($zlist->getWords());
+            //die;
+            $em = $this->getDoctrine()->getManager();
+            //$req=$em->createQuery('DELETE AppBundle:CenzorWord');
+            //$req->getResult();
+            //$em->flush();
+
+            foreach ($wlist as $w){
+                $dw = $em->getReference('AppBundle:CenzorWord', $w->getId());
+                $em->remove($dw);
+                $em->flush();
+            }
+            //dump($zlist->getWords());
+            //die;
+
+            $zid=0;
+            foreach ($zlist->getWords() as $w){
+
+                if(!empty($w->getCword())){
+                    $zid++;
+                    $w->setId($zid);
+                    $em->persist($w);
+                    $em->flush();
+                }
+
+            }
+
+            return $this->redirectToRoute('homepage');
         }
 
         return $this->render('@App/cwordlist/cwordlist.html.twig', [

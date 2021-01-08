@@ -24,8 +24,7 @@ class CenzorWordsType extends AbstractType
             'allow_add' => true,
             'prototype' => true,
             'prototype_data' => $ncw,
-            'allow_delete' => true,
-            'delete_empty' => true,
+            'allow_delete' => true
         ]);
     }
 

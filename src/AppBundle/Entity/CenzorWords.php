@@ -18,4 +18,9 @@ class CenzorWords
     {
         return $this->words;
     }
+
+    public function removeWord(CenzorWord $word)
+    {
+        $this->words->removeElement($word);
+    }
 }

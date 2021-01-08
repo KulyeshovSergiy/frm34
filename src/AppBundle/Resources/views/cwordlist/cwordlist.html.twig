@@ -17,11 +17,31 @@
 {% if form %}
     {{ form_start(form) }}
 
-    <ul class="words" data-prototype="{{ form_widget(form.words.vars.prototype)|e }}">
+    <div class="col-md-8 col-md-offset-4 words" id="words-list"
+        data-prototype="{{ form_widget(form.words.vars.prototype)|e }}"
+        data-widget-tags="{{ '<div class="word row mb-2"></div>'|e }}"
+        data-widget-length="{{ form.words|length }}"
+    >
         {% for word in form.words %}
-            <li>{{ form_row(word.cword) }}</li>
+            <div class="word row mb-2">
+{#                {{ form_errors(word.cword) }}#}
+                {{ form_row(word.cword) }}
+            </div>
         {% endfor %}
-    </ul>
+    </div>
+
+    <div class="col-md-8 col-md-offset-4" style="margin-top:5px;">
+        <button type="button"
+                class="add-another-collection-widget btn btn-primary"
+                data-list-selector="#words-list">
+            <i class="fa fa-btn fa-plus-square-o"></i> Add
+        </button>
+        <button type="button"
+                class="remove-last-collection-widget btn btn-primary"
+                data-list-selector="#words-list">
+            <i class="fa fa-btn fa-minus-square-o"></i> Delete last
+        </button>
+    </div>
     <div class="form-group">
         <div class="col-md-8 col-md-offset-4" style="margin-top:5px;">
             <button type="submit" class="btn btn-primary">
@@ -36,4 +56,56 @@
 
 {% block stylesheets %}
     <link href="{{ asset('bundles/app/css/grid.css') }}" rel="stylesheet">
+{% endblock %}
+{% block javascripts %}
+<script>
+    jQuery(document).ready(function () {
+        jQuery('.add-another-collection-widget').click(function (e) {
+            var list = jQuery(jQuery(this).attr('data-list-selector'));
+            // Try to find the counter of the list or use the length of the list
+            var counter = list.data('widget-counter') || list.children().length;
+
+            // grab the prototype template
+            var newWidget = list.attr('data-prototype');
+            // replace the "__name__" used in the id and name of the prototype
+            // with a number that's unique to your emails
+            // end name attribute looks like name="contact[emails][2]"
+            newWidget = newWidget.replace(/__name__/g, counter);
+            // Increase the counter
+            counter++;
+            // And store it, the length cannot be used if deleting widgets is allowed
+            list.data('widget-counter', counter);
+
+            // create a new list element and add it to the list
+            var newElem = jQuery(list.attr('data-widget-tags')).html(newWidget);
+            //addWordFormDeleteLink(newElem);
+            newElem.appendTo(list);
+        });
+        jQuery('.remove-last-collection-widget').click(function (e) {
+            var list = jQuery(jQuery(this).attr('data-list-selector'));
+            // Try to find the counter of the list or use the length of the list
+            var counter = list.data('widget-counter') || list.children().length;
+            if (counter>0){
+                counter--;
+                list.data('widget-counter', counter);
+                list.children()[counter].remove();
+            }
+
+        });
+
+    });
+
+function addWordFormDeleteLink($wordFormLi) {
+    var $removeFormButton = $('<button type="button" class="btn btn-outline-danger"><i class="fa fa-btn fa-trash-o"></i></button>');
+    $wordFormLi.append($removeFormButton);
+
+    $removeFormButton.on('click', function(e) {
+        // remove the li for the tag form
+        $wordFormLi.remove();
+    });
+}
+
+
+
+</script>
 {% endblock %}

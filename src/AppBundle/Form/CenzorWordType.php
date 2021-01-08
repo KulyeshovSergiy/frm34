@@ -15,7 +15,7 @@ class CenzorWordType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('cword');
+        $builder->add('cword',null,['label' => false,'required'=> false,]);
     }
 
     /**
