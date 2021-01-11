@@ -2,6 +2,7 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Entity\CenzorWord;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
@@ -22,7 +23,9 @@ class CwordsController extends Controller
         //return $this->render('@App/cwordlist/cwordlist.html.twig',['itemslist'=>$wlist]);
         $zlist=new CenzorWords();
         foreach ($wlist as $w){
-            $zlist->getWords()->add($w);
+            $nw= new CenzorWord();
+            $nw->setCword($w->getCword());
+            $zlist->getWords()->add($nw);
 
         }
 

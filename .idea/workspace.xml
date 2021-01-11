@@ -4,12 +4,6 @@
     <list default="true" id="acd7e428-9033-439f-9264-a8dee39fdabb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/CwordsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/CwordsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/CenzorWord.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/CenzorWord.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/CenzorWords.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/CenzorWords.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Form/CenzorWordType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Form/CenzorWordType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Form/CenzorWordsType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Form/CenzorWordsType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/cwordlist/cwordlist.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/cwordlist/cwordlist.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/layout.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +141,8 @@
       <workItem from="1609885948914" duration="1495000" />
       <workItem from="1609920427677" duration="5391000" />
       <workItem from="1610008080725" duration="3828000" />
-      <workItem from="1610095076415" duration="2220000" />
+      <workItem from="1610095076415" duration="2373000" />
+      <workItem from="1610354239610" duration="94000" />
     </task>
     <servers />
   </component>
